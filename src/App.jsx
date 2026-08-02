@@ -214,7 +214,7 @@ function App() {
         <section className="price" id="price">
           <div className="container">
             <span className="eyebrow">Прайс</span>
-            <h2>Тарифы уточняются</h2>
+            <h2>Тарифы </h2>
             <div className="price__grid">
               {PLANS.map((p) => (
                 <div className="price__card" key={p.name}>
@@ -247,10 +247,6 @@ function App() {
                 <span>Email</span>
                 <strong>d1zzze616@gmail.com</strong>
               </div>
-              <div className="contacts__item">
-                <span>География</span>
-                <strong>Города России</strong>
-              </div>
             </div>
           </div>
         </section>
@@ -258,7 +254,7 @@ function App() {
 
       <footer className="footer">
         <div className="container">
-          <span>© {new Date().getFullYear()} landing.города — лендинги для бизнеса в городах России</span>
+          <span>© {new Date().getFullYear()} flux.production — лендинги для бизнеса в городах России</span>
         </div>
       </footer>
     </>
