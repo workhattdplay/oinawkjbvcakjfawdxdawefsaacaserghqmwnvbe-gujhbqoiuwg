@@ -11,7 +11,7 @@ const BUILDINGS = [
 const ADVANTAGES = [
   {
     floor: '01',
-    title: 'Запуск за 5–7 дней',
+    title: 'Запуск за 3-4 дня',
     text: 'От брифа до рабочего сайта с формой заявок — без месяцев согласований.',
   },
   {
@@ -32,7 +32,7 @@ const ADVANTAGES = [
   {
     floor: '05',
     title: 'Адаптивность на любом экране',
-    text: 'Один макет одинаково хорошо работает на телефоне, планшете и десктопе.',
+    text: 'Один макет одинаково хорошо работает на телефоне, планшете и ПК.',
   },
   {
     floor: '06',
@@ -76,7 +76,7 @@ function App() {
     <>
       <header className="header">
         <div className="container header__row">
-          <span className="logo">landing<span className="logo__accent">.города</span></span>
+          <span className="logo">flux<span className="logo__accent">.prod</span></span>
           <nav className="nav">
             <a href="#advantages">Преимущества</a>
             <a href="#form">Заявка</a>
@@ -237,15 +237,15 @@ function App() {
             <div className="contacts__grid">
               <div className="contacts__item">
                 <span>Телефон</span>
-                <strong>Уточняется</strong>
+                <strong>+79371655455</strong>
               </div>
               <div className="contacts__item">
                 <span>Telegram</span>
-                <strong>Уточняется</strong>
+                <strong>https://t.me/lordgeass</strong>
               </div>
               <div className="contacts__item">
                 <span>Email</span>
-                <strong>Уточняется</strong>
+                <strong>d1zzze616@gmail.com</strong>
               </div>
               <div className="contacts__item">
                 <span>География</span>
